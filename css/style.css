@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/luis-vidal-FodEsaNZs48-unsplash.jpg);
+    background-size: cover;
+}
+.header{
+    color: antiquewhite;
+}
+.left{
+    display: inline-block;
+    border: 2px none red;
+}
+.mid{
+    border: 2px none green;
+    margin: -20px auto;
+    width: 33%;
+}
+.right{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    display: inline-block;
+    border: 2px none yellow;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar li{
+    display: inline-block;
+    margin: 5px;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar li a:hover{
+    color: darkgray;
+}
+.container{
+    padding: 20px;
+    width: 30%;
+    margin: 100px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.container h1{
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.formgroup input{
+    display: block;
+    width: 334px;
+    text-align: center;
+    padding: 4px;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container button{
+    display: block;
+    margin: auto;
+}
